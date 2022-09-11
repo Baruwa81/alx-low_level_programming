@@ -3,25 +3,19 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - prints all single digit numbers of base 10 starting from 0
  *
- * Return: 0 if successful
+ * Return: Always 0
  */
 
 int main(void)
 {
 	int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	if (n < 0)
-	{
-		printf("%d is negative\n", n);
-	}
-	else
-	{
-		printf("%d is zero\n", n);
-	}
+	for (num = 0; num < 10; num++)
+		printf("%i", num);
+
+		printf("\n");
+
 	return (0);
 }

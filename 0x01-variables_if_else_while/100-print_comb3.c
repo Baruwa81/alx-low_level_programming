@@ -8,24 +8,24 @@
 
 int main(void)
 {
-	int c' i;
-	for (c ='0'; c  <= 'g'; c++)
-	{
-		for (i = '0'; i <= '9'; i++)
-		{
-			if (c < i)
-			{
-				
-				putchar(c);
-				putchar(i);
+	int d, p;
 
-				if (c != '8' && i != '9'))
+	for (d = '0'; d < '9'; d++)
+	{
+			for (p = d + 1; p <= '9'; p++)
+			{
+				if (p != d)
 				{
+					putchar(d);
+					putchar(p);
+
+					if (d == '8' && p == '9')
+						continue
+
 					putchar(',');
 					putchar(',');
 				}
 			}
-		}
 	}
 	putchar('\n');
 

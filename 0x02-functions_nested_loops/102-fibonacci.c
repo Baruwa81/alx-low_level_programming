@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - print fibonacci
- * 
- * Return: Always 0
+ *
+ * Return: Alway 0
  */
 int main(void)
 {

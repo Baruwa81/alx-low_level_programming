@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_sign - checks if a char is alpha or not
+ * print_sign - a function that prints the sign of a number
  *
  * @n: int parameter to check
  *
@@ -26,4 +26,3 @@ int print_sign(int n)
 		return('0');
 	}
 }
-

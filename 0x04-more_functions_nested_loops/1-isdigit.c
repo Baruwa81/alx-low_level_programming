@@ -1,18 +1,20 @@
+#include <stdio.h>
 #include "main.h"
-
 /**
- * _isupper - define if a character is uppercase
- *
- * Description: Prints the alphabet with _putchar
- * @c: charater
- * Return: void
+ * _isupper - function that check for digit
+ * @c: print int
+ * Return: Always 0
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
-	if (c >= 'A' && c <= 'Z')
-		return (1);
-	else
-		else
-			return (0);
+if (c >= 48 && c <= 57)
+{
+return (1);
+}
+
+else
+{
+return (0);
+}
 }
